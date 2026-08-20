@@ -56,8 +56,10 @@ The dataset contains **1,000 records** and **18 variables**, including:
 nobel-prize-dataset/
 ├── data/
 │   └── nobel.csv
-├── Nobel_Prize.png
-└── notebook.ipynb
+├── images/
+    └── Nobel_Prize.png
+├── notebooks/
+    └── notebook.ipynb
 ```
 
 ## How to run
@@ -65,11 +67,11 @@ nobel-prize-dataset/
 Install the required libraries:
 
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter
+pip install pandas numpy matplotlib seaborn
 ```
 
 Open the notebook from the `nobel-prize-dataset` directory so that the relative path to the dataset works correctly:
 
 ```text
-nobel-prize-dataset/notebook.ipynb
+nobel-prize-dataset/nootbooks/notebook.ipynb
 ```
